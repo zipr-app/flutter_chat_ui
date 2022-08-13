@@ -142,7 +142,7 @@ class _InputState extends State<Input> {
             query.padding.left,
             0,
             query.padding.right,
-            query.viewInsets.bottom + query.padding.bottom,
+            0,
           );
     final textPadding = InheritedChatTheme.of(context)
         .theme
